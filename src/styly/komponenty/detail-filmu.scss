@@ -1,0 +1,25 @@
+.detail-filmu{
+    width: $sirka-obsahu;   
+    padding-left: $zakladni-odsazeni;
+    margin: $mezera-od-okraju;
+
+    &__nazev {
+        font-size: 2rem;
+    }
+    &__polozka {
+        list-style: none;
+    }
+    
+}
+
+.udaje{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    
+    &__popis {
+        font-weight: 700;
+    }
+
+    &__info {margin-left: 0.7rem;}
+
+}

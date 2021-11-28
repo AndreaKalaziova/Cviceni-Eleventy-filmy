@@ -1,11 +1,9 @@
 .paticka{
-    background-color: lighten(silver, 22%);
-    padding-left: $zakladni-odsazeni;
+    background-color: lighten(silver, 22%);    
     padding-bottom: 10vw;
 
     &__text {
-        display: grid;
-        grid-template-columns: 50% 50%;
+        margin: auto;
         width: $sirka-obsahu;
     }
     &__sekce{
@@ -21,5 +19,16 @@
     &__seznam a {
         text-decoration: none;
         color:black;
+    }
+}
+
+@media (min-width: 500px){
+    .paticka__text {
+       display: grid;
+       grid-template-columns: 50% 50%;
+       max-width: $sirka-obsahu;
+       padding-left: $zakladni-odsazeni;
+       margin: 0;
+       
     }
 }

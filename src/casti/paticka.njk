@@ -1,0 +1,30 @@
+<footer class="paticka"> 
+<div class="paticka__text">
+    <section class="paticka__sekce">
+			<h3 class="paticka--nazev">Podobné weby</h3>
+        		<ul class="paticka__seznam">
+	    			{% for web in podobneWeby %}
+						<li> 
+						<a href="{{ web.adresa }}"> {{ web.nazev}}</a>
+						</li>
+
+					{% endfor %}			
+					
+				</ul>
+    </section>   
+	
+
+    <section class="paticka__sekce">
+        <h3 class="paticka--nazev">Obecné</h3>
+		<ul class="paticka__seznam">
+			<li><a href="https://eleventy-filmy.netlify.app/puvod-dat/">Původ dat</a></li>
+			<li><a href="https://www.11ty.dev/">Eleventy dokumentace</a></li>
+			<li><a href="https://github.com/Czechitas-podklady-WEB/Cviceni-Eleventy-filmy">Zadání cvičení</a></li>
+    </section>
+</div>
+</footer>
+
+<!--Přidej zápatí, patičku s dvěma sloupci. V první vypiš odkazy z datového souboru podobneWeby.json. 
+
+vytvorit stranku Puvod dat
+Na menších obrazovkách nech sloupce pod sebou.

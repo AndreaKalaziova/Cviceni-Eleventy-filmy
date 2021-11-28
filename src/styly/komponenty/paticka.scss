@@ -1,25 +1,25 @@
 .paticka{
     background-color: lighten(silver, 22%);
     padding-left: $zakladni-odsazeni;
-        padding-bottom: 10vw;
-}
+    padding-bottom: 10vw;
 
-.paticka__text {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: $sirka-obsahu;
-}
-.paticka__sekce{
-    list-style: none;    
-}
-.paticka--nazev {
-    padding-left: 2.4rem;
-}
-.paticka__seznam{
-    list-style: none;
-}
+    &__text {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: $sirka-obsahu;
+    }
+    &__sekce{
+        list-style: none;    
+    }
+    &--nazev {
+        padding-left: 2.4rem;
+    }
+    &__seznam{
+        list-style: none;
+    }
 
-.paticka__seznam a {
-    text-decoration: none;
-    color:black;
+    &__seznam a {
+        text-decoration: none;
+        color:black;
+    }
 }

@@ -1,4 +1,9 @@
 main{
     width: $sirka-obsahu;   
     padding-left: $zakladni-odsazeni;
+    
+}
+
+.hlavniSeznam__polozka a {
+    color:$doplnkova-barva;
 }

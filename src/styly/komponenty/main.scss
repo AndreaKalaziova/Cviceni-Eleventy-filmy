@@ -1,9 +1,17 @@
 main{
     width: $sirka-obsahu;   
     padding-left: $zakladni-odsazeni;
-    
+    font-size: 1.1rem;
 }
 
+h1{
+    padding-left: $mezera-od-okraju;
+}
+.hlavniSeznam__polozka {
+    list-style: square;
+    color: $doplnkova-barva;
+}
 .hlavniSeznam__polozka a {
     color:$doplnkova-barva;
+    text-decoration: none;
 }
